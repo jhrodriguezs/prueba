@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio OVI</title>
+    <link rel="stylesheet" href="CSS/estilos.css">
+</head>
+<body>
+    <header>
+        <img src="IMG/logo.jpg" alt="logo de la UNAD">
+        <h1> DISEÑO DE SITIOS WEB</h1>
+    </header>
+    <nav>
+        <ul class="menu">
+            <li><a href="pagina1.html">Inicio</a></li>
+            <li class="boton"><a href="#">Lecturas</a>
+            <div class="listaDesplegable">
+                <a href="pagina2.html">Opc 1</a>
+                <a href="#">Opc 2</a>
+                <a href="#">Opc 3</a>
+            </div>
+            </li>
+            <li class="boton"><a href="#">Actividades</a>
+                <div class="listaDesplegable">
+                    <a href="pagina2.html">Opc 1</a>
+                    <a href="#">Act 2</a>
+                </div>
+                </li>
+        </ul>
+    </nav>
+    <section class="contenedor">
+        <section class="central">
+            <article>
+                <h3> Artículo1</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                    . At vero, quod corrupti aliquam, in delectus atque veritatis incidunt repellendus tempora accusamus
+                     debitis quia rerum aspernatur voluptas, officiis blanditiis repellat maiores.
+                    </p>
+            </article>
+            <article>
+                <h3>Artículo 2</h3>
+                <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                    . At vero, quod corrupti aliquam, in delectus atque veritatis incidunt repellendus tempora accusamus
+                     debitis quia rerum aspernatur voluptas, officiis blanditiis repellat maiores.
+                    </p>
+            </article>
 
+        </section>
+        <aside>
+            <h4> Este es el lateral</h4>
+            <a class="twitter-timeline" data-height="450" data-theme="dark" href="https://twitter.com/PGN_COL?ref_src=twsrc%5Etfw">Tweets by PGN_COL</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+        </aside>
+
+    </section>
+    <footer>
+        <p> Este es el pié de ppágina</p>
+        <h6> By grupo 1 marzo 20  </h6>
+    </footer>
+</body>
+</html>
